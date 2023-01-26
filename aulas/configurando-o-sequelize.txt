@@ -1,0 +1,23 @@
+Aula: Configurando o Sequelize
+
+- Preparar o projeto para usar o CLI
+
+- criar a pasta "config" e dentr dela o arquivo sequelizeCli.js,
+  onde estarão as informações para a criação do banco de dados do projeto
+
+- criar o arquivo ".sequelizerc" que conterá as confugurações para o uso dos paths por parte do Sequelize
+
+- criar o 'username' e o 'password' para o banco de dados
+  terminal: sudo -u postgres psql
+  terminal psql: fazer o login
+  terminal psql: CREATE USER onebitflix CREATEDB ENCRYPTED PASSWORD 'onebitflix';
+
+- criar o banco de dados:
+  terminal: 'npx sequelize-cli db:create'
+
+- criar a pasta 'database' e dentro dela as pastas 'migrations' e 'seeders'
+
+- na raiz da pasta 'database' criar o arquivo 'index.ts' que conterá as configurações para a manipulação
+  do banco de dados por meio da aplicação
+
+- no arquivo 'server.ts' importar o 'sequelize' e inserir o método sequelize.authenticate() dentro do método app.listen()
