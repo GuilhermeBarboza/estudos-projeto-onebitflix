@@ -2,6 +2,6 @@ Aula: Configurando o AdminJS
 
 - Criar a pasta 'src\adminjs' e dentro dela o arquivo 'index.ts'
 
-- Adcionar as rotas do AmdinJS no arquivo 'server.ts'
+- Adicionar as rotas do AmdinJS no arquivo 'server.ts'
 
 

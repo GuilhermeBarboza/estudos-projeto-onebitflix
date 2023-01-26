@@ -1,0 +1,21 @@
+Aula: Criando o Primeiro Resource
+
+- Criar a primeira migration
+  terminal: "npx sequelize-cli migration:generate --name create-categories-table"
+
+- Criar a estrutura da tabela dentro da migration 'create-categories-table.js'
+
+- Rodar a migration
+  Terminal: npx sequelize-cli db:migrate
+
+- Criar o arquivo 'src\models\Category.ts'
+
+- Criar o arquivo 'src\models\index.ts'
+
+- Criar o arquivo 'src\adminjs\resources\category.ts'
+
+- Criar o arquivo 'src\adminjs\resources\index.ts'
+
+- Inserir os resources no arquivo 'src\adminjs\index.ts'
+
+- pelo browser, o AdminJS já exibe o cvatálogo, oferecendo as opções de inserir categorias e filtrá-las

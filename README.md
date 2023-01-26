@@ -1,0 +1,4 @@
+Projeto Onebitflix
+
+O curso "Programado Full Stack Javascript" possui em um de seus módulos de culminância um projeto que visa utilizar todas as tecnologias que foram apresentadas durante o curso. Se trata da construção de uma plataforma de Streaming de Ensino, chamada Onebitflix. O projeto tem como pilares o banco de dados PostgreSQL, ORM Sequelize e o ExpressJS. Para integrar esses pilares, o AdminJS, trazendo seu Painel Administrativo e as interfaces. A linguagem principal deste projeto é o Typescript.
+Um projeto bem completo, que mostra a construção de uma aplicação desde o levantamento de requisitos até seu deploy.
