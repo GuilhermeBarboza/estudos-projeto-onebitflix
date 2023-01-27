@@ -1,0 +1,15 @@
+- criar a segunda migrate com a estrutura para tabela courses,
+  que permitirá o primeiro relacionamento entre tabelas
+
+- rodar a migrate
+  terminal: npx sequelize-cli db:migrate
+
+- criar o model 'src\models\Course.ts'
+
+- importar o 'Course' no arquivo 'src\models\index.ts'
+
+- criar o resource 'src\adminjs\resources\course.ts'
+
+- inserir o resource: course no arquivo 'src\adminjs\resources\index.ts'
+
+- a aba courses já estará disponível no painel de navegação do AdminJS
