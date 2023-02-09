@@ -1,0 +1,11 @@
+- criar o primeiro seeder
+- terminal: npx sequelize-cli seed:generate --name seed-categories-table
+
+- executar o seeder
+- terminal: npx sequelize-cli db:seed:all
+
+- criar o segundo seeder
+- terminal: npx sequelize-cli seed:generate --name seed-courses-table
+- executar
+- terminal: npx sequelize-cli db:seed --seed src\database\seeders\20230209012930-seed-courses-table.js
+- terminal: npx sequelize-cli db:seed:all
