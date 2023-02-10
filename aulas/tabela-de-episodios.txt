@@ -1,0 +1,13 @@
+- criar migration
+- terminal: npx sequelize-cli migration:generate --name create-episodes-table
+
+- executar
+- terminal: npx sequelize-cli db:migrate
+
+- criar o model referente a migrate rescem criada
+  src\models\Episode.ts
+
+- incluir o model no arquivo de relacioanamentos
+  src\models\index.ts
+
+- criar o resource correspondente e importá-lo no src\adminjs\resources\index.ts
